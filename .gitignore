@@ -78,3 +78,7 @@ typings/
 dist/
 lib/
 **/.DS_Store
+.wrangler/
+
+worker.capnp
+.storage/

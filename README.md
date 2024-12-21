@@ -16,14 +16,21 @@ LeetCode and LeetCode CN are both supported.
 - 🎨 Multiple themes and 1,300+ fonts - [Theme](#theme-default-lightdark), [Font](#font-default-baloo_2)
 - 🪄 Fully customizable using CSS - [Custom Stylesheets](#sheets-default-)
 - ⚡️ Fast and global edge network - [Cloudflare Workers](https://workers.cloudflare.com/)
-- 🚫 No tracking, controlable cache - [Cache](#cache-default-60)
+- 🚫 No tracking, controllable cache - [Cache](#cache-default-60)
 - 🍀 Open source - [MIT License](./LICENSE)
 - ⚙️ Extended-cards: `activity`, `contest`, `heatmap`
 
-It also has a [NPM package](https://www.npmjs.com/package/leetcode-card) and a [highly extensible system](./src/core/index.ts), so you can easily customize it to your needs.
+It also has a [NPM package](https://www.npmjs.com/package/leetcode-card) and a [highly extensible system](./packages/core/src/index.ts), so you can easily customize it to your needs.
 
-CLI tool will be created if I have time.
 Want to contribute? Feel free to open a pull request!
+
+## Self-hosting
+
+You can also self-host this service using the [`jacoblincool/leetcode-stats-card`](https://hub.docker.com/r/jacoblincool/leetcode-stats-card) Docker image.
+
+To build the image by yourself, use `pnpm build:image` script.
+
+See [docker-compose.yml](./docker-compose.yml) for an example.
 
 ## Usage
 
@@ -243,6 +250,14 @@ Now we have 6 themes. If you have any great idea, please feel free to open a PR!
 ```
 
 [![Leetcode Stats](https://leetcard.jacoblin.cool/JacobLinCool?theme=unicorn)](https://leetcard.jacoblin.cool/JacobLinCool?theme=unicorn)
+
+#### Transparent
+
+```md
+![Leetcode Stats](https://leetcard.jacoblin.cool/JacobLinCool?theme=transparent)
+```
+
+[![Leetcode Stats](https://leetcard.jacoblin.cool/JacobLinCool?theme=transparent)](https://leetcard.jacoblin.cool/JacobLinCool?theme=transparent)
 
 ### Fonts
 
